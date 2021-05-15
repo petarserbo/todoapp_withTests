@@ -15,6 +15,8 @@
 		BF598F95264C22BE002D3FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF598F93264C22BE002D3FCE /* LaunchScreen.storyboard */; };
 		BF598FA0264C22BE002D3FCE /* todoapp_withTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF598F9F264C22BE002D3FCE /* todoapp_withTestsTests.swift */; };
 		BF598FAB264C22BE002D3FCE /* todoapp_withTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF598FAA264C22BE002D3FCE /* todoapp_withTestsUITests.swift */; };
+		BF598FBC264C2520002D3FCE /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF598FBB264C2520002D3FCE /* TaskTests.swift */; };
+		BF598FC8264D810F002D3FCE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF598FC7264D810F002D3FCE /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BF598FA6264C22BE002D3FCE /* todoapp_withTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoapp_withTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF598FAA264C22BE002D3FCE /* todoapp_withTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoapp_withTestsUITests.swift; sourceTree = "<group>"; };
 		BF598FAC264C22BE002D3FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF598FBB264C2520002D3FCE /* TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTests.swift; sourceTree = "<group>"; };
+		BF598FC7264D810F002D3FCE /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 				BF598F88264C22B8002D3FCE /* AppDelegate.swift */,
 				BF598F8A264C22B8002D3FCE /* SceneDelegate.swift */,
 				BF598F8C264C22B8002D3FCE /* ViewController.swift */,
+				BF598FC7264D810F002D3FCE /* Task.swift */,
 				BF598F8E264C22B8002D3FCE /* Main.storyboard */,
 				BF598F91264C22BE002D3FCE /* Assets.xcassets */,
 				BF598F93264C22BE002D3FCE /* LaunchScreen.storyboard */,
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				BF598F9F264C22BE002D3FCE /* todoapp_withTestsTests.swift */,
+				BF598FC0264C252D002D3FCE /* model */,
 				BF598FA1264C22BE002D3FCE /* Info.plist */,
 			);
 			path = todoapp_withTestsTests;
@@ -126,6 +132,14 @@
 				BF598FAC264C22BE002D3FCE /* Info.plist */,
 			);
 			path = todoapp_withTestsUITests;
+			sourceTree = "<group>";
+		};
+		BF598FC0264C252D002D3FCE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BF598FBB264C2520002D3FCE /* TaskTests.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF598FC8264D810F002D3FCE /* Task.swift in Sources */,
 				BF598F8D264C22B8002D3FCE /* ViewController.swift in Sources */,
 				BF598F89264C22B8002D3FCE /* AppDelegate.swift in Sources */,
 				BF598F8B264C22B8002D3FCE /* SceneDelegate.swift in Sources */,
@@ -268,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF598FBC264C2520002D3FCE /* TaskTests.swift in Sources */,
 				BF598FA0264C22BE002D3FCE /* todoapp_withTestsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
